@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Beatrice Owens</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+    </head>
+    <body class="Background">
+
+        <!-- Navbar -->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- Background Video -->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="images/video/Typing.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!-- Video Text -->
+        <div class="video_Text">
+            <h1 class="white-text">Beatrice Owens' Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>The most damaging phrase in the language is... it's always been done this way.
+                    </q>
+                    <br> -Grace Hopper
+                    <br>
+                    <br> My name is Beatrice Owens. Welcome to my portfolio website. <br>Here, I will introduce you to my background and experience.
+                    <br>
+                    <br> Thank you for your time. Enjoy!
+                </p>
+            </strong>
+        </div>
+
+        <!-- ABOUT Section -->
+        <div class="Row" id="About">
+            <!-- LEFT COLUMN -->
+            <div class="Column_2">
+                <img src="images/home_office.jpg" alt="Home Office">
+            </div>
+            <!--RIGHT COLUMN-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am a Software Developer who loves to code. In my spare time, I enjoy playing
+                    with my pets and spending time outdoors.
+                    <br>
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The 
+                    Tech Academy</a>'s Software Developer Boot Camp. I have training and experience in these programming
+                    languages: HTML, CSS, JavaScript, SQL, C# and more.
+                    <br>
+                    <br>As a full-stack developer I would love to work with you on your project. You can 
+                    <a href="#Contact">contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--GITHUB SECTION-->
+        <div class="Row" id="GitHub">
+            <!--LEFT COLUMN-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    My coding projects are available on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/the-tech-academy" target="_blank">The Tech
+                    Academy GitHub</a></p>
+                </p>
+            </div>
+            <!--RIGHT COLUMN-->
+            <div class="Column_2">
+                <a href="https://github.com/the-tech-academy" target="_blank"><img src="images/GitHub.png" 
+                    alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--CONTACT SECTION-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="images/mailbox.jpg" alt="Contact_Image">
+            </div>
+            <!--Contact Form, Right Column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <form action="https://formspree.io/f/xleabere" method="POST">
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--FOOTER SECTION-->
+        <footer>
+            <p>
+                <p class="center">&copy; Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" 
+                target="_blank">The Tech Academy</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
