@@ -1,4 +1,4 @@
-/*-------GENERAL STYLING -------*/
+/*--------GENERAL STYLING--------*/
 
 /*entire doc*/
 html {
@@ -17,9 +17,9 @@ body {
     user-select: none;
 }
 
-/*fade effect when loaded*/
+/*Fade effect when loaded*/
 body.fade-out {
-    opacity: .1;
+    opacity: .15;
 }
 
 /*h1 elements*/
@@ -233,7 +233,7 @@ footer {
 .Slideshow_Images {
     vertical-align: middle;
     height: auto;
-    box-shadow: 0px 5px 10px 12px rgba(0, 0, 0, .75);
+    box-shadow: 0px 5px 10px 12px rgba(0, 0, 0, .80);
     width: 100%;
 }
 
